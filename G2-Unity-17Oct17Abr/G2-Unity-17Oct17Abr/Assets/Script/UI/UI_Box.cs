@@ -12,12 +12,13 @@ public class UI_Box : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        BoxHeaderTitle.Title.text = title;    
+        BoxHeaderTitle.Title.text = title;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }
+
