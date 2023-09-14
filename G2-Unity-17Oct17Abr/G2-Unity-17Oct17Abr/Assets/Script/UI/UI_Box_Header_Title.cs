@@ -1,24 +1,20 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
-public class UI_Box : MonoBehaviour
+public class UI_Box_Header_Title : UI_Box_Header
 {
-    public UI_Box_Header_Title BoxHeaderTitle;
-
-    public string title = "";
-    public string content = "";
-
+    public TMP_Text Title;
     // Start is called before the first frame update
     void Start()
     {
-        BoxHeaderTitle.Title.text = title;
+        Title = GetComponent<TMP_Text>(); 
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 }
-

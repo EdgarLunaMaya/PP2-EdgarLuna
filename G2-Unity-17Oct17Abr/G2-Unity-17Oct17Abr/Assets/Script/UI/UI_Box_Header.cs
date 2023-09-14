@@ -2,23 +2,19 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class UI_Box : MonoBehaviour
+public class UI_Box_Header : UI_Box_Background
 {
-    public UI_Box_Header_Title BoxHeaderTitle;
-
-    public string title = "";
-    public string content = "";
-
+    private Sprite Header;
+    public Color HeaderColor;
     // Start is called before the first frame update
     void Start()
     {
-        BoxHeaderTitle.Title.text = title;
+        Header = GetComponent<Sprite>();
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        
     }
 }
-
